@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather App</title>
+  </head>
+  <body>
+    <header></header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>Weather</li>
+        <li style="float: right">About</li>
+      </ul>
+    </nav>
+    <main><section class="weather-section"></section>
+        <div class="page">
+          <h1>LATEST WEATHER</h1>
+          <div class="archive">
+            <article class="article">
+              <section id="stats">
+                <div class="summary">
+                  <h2>Weather summary</h2>
+                  <h3 id="five-city"></h3>
+                  <p>Currently: Partly Cloudy <span id="current-desc"></span></p>
+                  <p>
+                    Tempature:
+                    <span id="current-temp"></span> 93°F
+                  </p>
+                  <p>Feels Like:  <span id="current-Feels Like"></span> 90°F</p>
+                  <p>Humidity: <span id="current-humid"></span>25%</p>
+                  <p>Wind Speed: <span id="current-windSpeed"></span>N 8 mph</p>
+                </div>
+              </section>
+              <div>
+                <img src="Weather_site_project/partlyCloudy.jpg" 
+                width="300px"
+                height="300px"
+                alt="partly cloudy" />
+              </div>
+            </article>
+
+            <!-- 5 day forecast -->
+            <div class="article-five-day">
+              <article id="forecastContainer">
+                <h2 id="forecastTitle">5 Day Forecast</h2>
+                <h3 id="city">Salt Lake City</h3>
+                <img src="Weather_site_project/Umbrella.jpg" 
+                width="100px"
+                height="100px"
+                alt="thunder storms"/>
+                <div class="flex">
+                  <div class="flex-col">
+                    <span id="dayTitle1" class="col-head"></span>
+                    <img id="weatherIcon1" class="weatherIcon" />
+                    <span class="temp-data">
+                      <span id="data1"></span>
+                      <span>Day 1 105°F</span>
+                    </span>
+                  </div>
+                  <div class="flex-col">
+                    <img src="Weather_site_project/Sunny.jpg" 
+                width="100px"
+                height="100px"
+                alt="Sunny"/>
+                    <span id="dayTitle2" class="col-head"></span>
+                    <img id="weatherIcon2" class="weatherIcon" />
+                    <div class="temp-data">
+                      <span id="data2"></span>
+                      <span>Day 2 103°F</span>
+                    </div>
+                  </div>
+                  <div class="flex-col">
+                    <img src="Weather_site_project/partlyCloudy.jpg" 
+                width="100px"
+                height="100px"
+                alt="partly cloudy"/>
+                    <span id="dayTitle3" class="col-head"></span>
+                    <img id="weatherIcon3" class="weatherIcon" />
+                    <div class="temp-data">
+                      <span id="data3"></span>
+                      <span>Day 3 102°F</span>
+                    </div>
+                  </div>
+                  <div class="flex-col">
+                    <img src="Weather_site_project/thunderStorms.jpg" 
+                width="100px"
+                height="100px"
+                alt="thunder storms"/>
+                    <span id="dayTitle4" class="col-head"></span>
+                    <img id="weatherIcon4" class="weatherIcon" />
+                    <div class="temp-data">
+                      <span id="data4"></span>
+                      <span>Day 4 95°F</span>
+                    </div>
+                  </div>
+                  <div class="flex-col">
+                    <img src="Weather_site_project/partlyCloudy.jpg" 
+                width="100px"
+                height="100px"
+                alt="partly cloudy"/>
+                    <span id="dayTitle5" class="col-head"></span>
+                    <img id="weatherIcon5" class="weatherIcon" />
+                    <div class="temp-data">
+                      <span id="data5"></span>
+                      <span>Day 5 102°F</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr /></main>
+    <footer></footer>
+  </body>
+</html>
